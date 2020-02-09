@@ -2,7 +2,7 @@
 .carousel{
     position: relative;
     margin:2% 0%;
-    height: 77vh;  
+    height: 70vh;  
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,6 +12,7 @@
 
 /*Images inside carousel*/
 .carousel img{
+    width: 100%;
     position: absolute;
     transition: opacity 0.3s linear;
 }
@@ -33,8 +34,11 @@
 }
 
 
-@media only screen and (min-width:768px){
+@media only screen and (max-width:768px){
     .carousel{
-        height: 70vh;
+        height: 50vh;
     }
+    .carousel-text{
+        font-size: 1.5em;
+}
 }
