@@ -2,6 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://archanakarki.github.io/frontend-task-2020",
   "dependencies": {
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
