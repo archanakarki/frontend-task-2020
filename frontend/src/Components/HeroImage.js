@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import './HeroImage.css'
+import './Css/HeroImage.css'
 
 const HeroImage = ({resturants}) => {
     // Step 1: Extract array of images
@@ -19,8 +19,8 @@ const HeroImage = ({resturants}) => {
     
     return(
         /* Inline styling used to repeat image loops after end of images array */
-        <div style={{backgroundImage : `url(${num <= 48 ? images[num] : setNum(initialNum) })`}} className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto carousel">        
-            <h3 className="carousel-text">{resturants[num].name}</h3>
+        <div style={{backgroundImage : `url(${num <= 48 ? images[num] : setNum(initialNum) })`}} className="col-lg-12 col-md-12 col-sm-12 col-xs-12 mx-auto Carousel">        
+            <h3 className="Carousel-text">{resturants[num].name}</h3>
         </div>
     )
 }

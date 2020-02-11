@@ -1,5 +1,5 @@
 /*Hero Carousel Images placeholder*/
-.carousel{
+.Carousel{
     position: relative;
     margin:2% 0%;
     height: 70vh;  
@@ -10,14 +10,7 @@
     background-size: cover;
 }
 
-/*Images inside carousel*/
-/* .carousel img{
-    width: 100%;
-    position: absolute;
-    transition: opacity 0.3s linear;
-} */
-
-.carousel-text{
+.Carousel-text{
     width: 100%;
     margin:0;
     padding: 0;
@@ -35,11 +28,11 @@
 
 
 @media only screen and (max-width:768px){
-    .carousel{
+    .Carousel{
         height: 50vh;
         background-attachment: scroll !important;
     }
-    .carousel-text{
+    .Carousel-text{
         font-size: 1.5em;
 }
 }

@@ -17,6 +17,7 @@
     1) To open the project folders in terminal. 
         cd task > cd frontend
     2) To run the app:
+        npm install
         npm start
     3) Project will open at (http://localhost:3000) by default
 
